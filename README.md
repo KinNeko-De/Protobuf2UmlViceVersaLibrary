@@ -10,9 +10,9 @@ You can only run the unit tests to see some output
 ## Workflow
 1. Write your proto files.
 2. Run Proto-Compiler to create a compiled model.
-   ```batch
-   protoc "C:\Directory\mymodel.proto" --proto_path="C:\Directory" --descriptor_set_out="mymodel"
-   ```
+``` batch
+protoc "./directory/**" --proto_path="./directory" --descriptor_set_out="mymodel"
+```
 3. Run Protobuf2UmlViceVersa to get an UML Model,
 4. Run any UML Exporter to output the UML Model to a format of your choice.
 
@@ -21,7 +21,7 @@ Currently only PlantUML Exporter exists. It is the easiest way to print some pre
 Outputs directly to the console. The output can only be seen in unit tests now.
 
 ## Example
-```protobuf
+``` protobuf
 syntax = "proto3";
 
 option csharp_namespace = "GrpcServer.Protos";
