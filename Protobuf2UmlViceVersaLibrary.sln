@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protobuf2UmlViceVersaLibrary", "Protobuf2UmlViceVersaLibrary\Protobuf2UmlViceVersaLibrary.csproj", "{CA445FF0-D6AA-4DE8-AA09-898C35A8774D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Protobuf2UmlViceVersaLibraryTest", "Protobuf2UmlViceVersaLibraryTest\Protobuf2UmlViceVersaLibraryTest.csproj", "{EA931A70-FA62-426D-A4BE-527379F18720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB46AAC4-C188-4E7E-9341-3D9BC5E7EA93}"
+	ProjectSection(SolutionItems) = preProject
+		example.png = example.png
+		License.txt = License.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA445FF0-D6AA-4DE8-AA09-898C35A8774D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA445FF0-D6AA-4DE8-AA09-898C35A8774D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA445FF0-D6AA-4DE8-AA09-898C35A8774D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA445FF0-D6AA-4DE8-AA09-898C35A8774D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA931A70-FA62-426D-A4BE-527379F18720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA931A70-FA62-426D-A4BE-527379F18720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA931A70-FA62-426D-A4BE-527379F18720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA931A70-FA62-426D-A4BE-527379F18720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {619DB4F2-814E-4138-AEC2-C490569F314C}
+	EndGlobalSection
+EndGlobal
